@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import TodoItem from "./components/TodoItem";
-
 const API = "http://localhost:5000/api/todos";
 
 function App() {
